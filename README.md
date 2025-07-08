@@ -2,6 +2,7 @@
 Tetikasa Fyanatra ,sehatra tahaka ny Google Classroom fa 100% vita Malagasy.
 Nontanterahanan'ny fivondronanana "Iray Ambiray" ahitana an'i:
 -HERIMANANA Sitraka Malala Zou 
+-RANAIVOHASIVONY Onjamirado Christian Jonas
 -Anaranareo...
 
 
