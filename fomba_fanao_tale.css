@@ -1,0 +1,314 @@
+/* ===== FOMBA FANAO MANOKANA HO AN'NY TALE ===== */
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(10px);
+    box-shadow: var(--aloka-antonony);
+    padding: var(--halavany-lehibe) 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: var(--loko-maitso) !important;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-antonony);
+}
+
+.navbar-brand i {
+    color: var(--loko-manga-mazava);
+}
+
+/* ===== KARATRA TONGASOA ===== */
+.karatra-tongasoa {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    border-radius: var(--boribory-tena-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    margin-bottom: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.lohateny-tongasoa {
+    color: var(--loko-maitso);
+    font-weight: 700;
+    margin-bottom: var(--halavany-antonony);
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-antonony);
+}
+
+.lohateny-tongasoa i {
+    color: var(--loko-mavo);
+}
+
+.subtitle-tongasoa {
+    color: var(--loko-maizina);
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+}
+
+/* ===== KARATRA STATISTIKA ===== */
+.karatra-statistika {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    margin-bottom: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.karatra-statistika:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--aloka-lehibe);
+}
+
+.karatra-statistika.mpampianatra {
+    border-left: 5px solid var(--loko-maitso);
+}
+
+.karatra-statistika.mpianatra {
+    border-left: 5px solid var(--loko-manga-mazava);
+}
+
+.isa-statistika {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: var(--halavany-antonony);
+}
+
+.karatra-statistika.mpampianatra .isa-statistika {
+    color: var(--loko-maitso);
+}
+
+.karatra-statistika.mpianatra .isa-statistika {
+    color: var(--loko-manga-mazava);
+}
+
+.label-statistika {
+    color: var(--loko-maizina);
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+}
+
+.sary-statistika {
+    font-size: 3rem;
+    opacity: 0.3;
+    position: absolute;
+    right: var(--halavany-tena-lehibe);
+    top: var(--halavany-tena-lehibe);
+}
+
+/* ===== FARITRA VOTOATY ===== */
+.faritra-votoaty {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(15px);
+    border-radius: var(--boribory-tena-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(255,255,255,0.3);
+    min-height: 400px;
+}
+
+/* ===== TABS ===== */
+.nav-tabs .nav-link {
+    border: none;
+    color: var(--loko-maizina);
+    font-weight: 600;
+    padding: var(--halavany-lehibe) var(--halavany-tena-lehibe);
+    margin-right: var(--halavany-antonony);
+    border-radius: var(--boribory-antonony) var(--boribory-antonony) 0 0;
+    transition: all 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    background: rgba(40, 167, 69, 0.1);
+    color: var(--loko-maitso);
+}
+
+.nav-tabs .nav-link.active {
+    background: var(--loko-maitso);
+    color: var(--loko-fotsy);
+}
+
+/* ===== TABILAO ===== */
+.tabilao {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-antonony);
+    overflow: hidden;
+    box-shadow: var(--aloka-kely);
+}
+
+.tabilao thead th {
+    background: var(--loko-volom-bary);
+    border: none;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    padding: var(--halavany-lehibe);
+}
+
+.tabilao tbody td {
+    border: none;
+    padding: var(--halavany-lehibe);
+    vertical-align: middle;
+}
+
+.tabilao tbody tr:hover {
+    background: rgba(40, 167, 69, 0.05);
+}
+
+/* ===== BADGE ===== */
+.badge-taranja {
+    background: var(--loko-maitso);
+    color: var(--loko-fotsy);
+    padding: var(--halavany-antonony) var(--halavany-lehibe);
+    border-radius: var(--boribory-tena-lehibe);
+    font-size: 0.8rem;
+}
+
+.badge-kilasy {
+    background: var(--loko-manga-mazava);
+    color: var(--loko-fotsy);
+    padding: var(--halavany-antonony) var(--halavany-lehibe);
+    border-radius: var(--boribory-tena-lehibe);
+    font-size: 0.8rem;
+}
+
+/* ===== BOKOTRA HIVOAKA ===== */
+.btn-hivoaka {
+    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+    border: none;
+    color: var(--loko-fotsy);
+    padding: var(--halavany-antonony) var(--halavany-tena-lehibe);
+    border-radius: 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-hivoaka:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
+    color: var(--loko-fotsy);
+}
+
+/* ===== BOATY FIKAROHANA ===== */
+.boaty-fikarohana {
+    position: relative;
+    margin-bottom: var(--halavany-tena-lehibe);
+}
+
+.boaty-fikarohana input {
+    border: 2px solid #e9ecef;
+    border-radius: 25px;
+    padding: 0.75rem var(--halavany-lehibe) 0.75rem 3rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.boaty-fikarohana input:focus {
+    border-color: var(--loko-maitso);
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+    outline: none;
+}
+
+.boaty-fikarohana i {
+    position: absolute;
+    left: var(--halavany-lehibe);
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--loko-volomparasy);
+}
+
+/* ===== HAFATRA HADISOANA ===== */
+.hafatra-hadisoana {
+    background: #f8d7da;
+    color: #721c24;
+    padding: var(--halavany-lehibe);
+    border-radius: var(--boribory-antonony);
+    margin-bottom: var(--halavany-lehibe);
+    border: 1px solid #f5c6cb;
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-antonony);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: var(--halavany-lehibe) var(--halavany-antonony);
+    }
+    
+    .karatra-tongasoa, 
+    .faritra-votoaty {
+        padding: var(--halavany-tena-lehibe);
+    }
+    
+    .isa-statistika {
+        font-size: 2rem;
+    }
+    
+    .nav-tabs .nav-link {
+        padding: 0.75rem var(--halavany-lehibe);
+        font-size: 0.9rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+/* ===== ANIMATIONS MANOKANA ===== */
+.karatra-statistika {
+    animation: fadeIn 0.6s ease forwards;
+    opacity: 0;
+}
+
+.karatra-statistika:nth-child(1) { animation-delay: 0.1s; }
+.karatra-statistika:nth-child(2) { animation-delay: 0.2s; }
+.karatra-statistika:nth-child(3) { animation-delay: 0.3s; }
+
+/* ===== HOVER EFFECTS ===== */
+.karatra-statistika:hover .sary-statistika {
+    opacity: 0.6;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+/* ===== FOCUS STATES ===== */
+.nav-tabs .nav-link:focus {
+    outline: 2px solid var(--loko-maitso);
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    outline: 2px solid var(--loko-manga);
+    outline-offset: 2px;
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .navbar,
+    .btn-hivoaka,
+    .boaty-fikarohana {
+        display: none !important;
+    }
+    
+    .karatra-tongasoa,
+    .faritra-votoaty {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}

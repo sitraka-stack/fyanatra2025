@@ -1,0 +1,152 @@
+/* ===== FAMPIDIRANA RAKITRA MANOKANA ===== */
+.file-input-container {
+    position: relative;
+    margin-bottom: var(--halavany-lehibe);
+}
+
+.file-input-wrapper {
+    position: relative;
+    border: 2px dashed #d1d5db;
+    border-radius: var(--boribory-antonony);
+    padding: var(--halavany-tena-lehibe);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: var(--loko-volom-bary);
+}
+
+.file-input-wrapper:hover {
+    border-color: var(--loko-manga);
+    background: rgba(59, 130, 246, 0.05);
+}
+
+.file-input-wrapper.has-file {
+    border-color: var(--loko-maitso);
+    background: rgba(34, 197, 94, 0.05);
+}
+
+.file-input-hidden {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-input-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--halavany-antonony);
+}
+
+.file-input-icon {
+    font-size: 3rem;
+    color: var(--loko-volomparasy);
+    transition: color 0.3s ease;
+}
+
+.file-input-wrapper:hover .file-input-icon {
+    color: var(--loko-manga);
+}
+
+.file-input-wrapper.has-file .file-input-icon {
+    color: var(--loko-maitso);
+}
+
+.file-input-text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-kely);
+}
+
+.file-input-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--loko-maizina);
+}
+
+.file-input-subtitle {
+    font-size: 0.9rem;
+    color: var(--loko-volomparasy);
+}
+
+.file-info {
+    display: none;
+    align-items: center;
+    gap: var(--halavany-antonony);
+    padding: var(--halavany-antonony);
+    background: var(--loko-fotsy);
+    border: 1px solid #e5e7eb;
+    border-radius: var(--boribory-antonony);
+    margin-top: var(--halavany-antonony);
+}
+
+.file-info.show {
+    display: flex;
+}
+
+.file-info-icon {
+    font-size: 1.5rem;
+    color: var(--loko-manga);
+}
+
+.file-info-details {
+    flex: 1;
+}
+
+.file-info-name {
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-kely);
+}
+
+.file-info-size {
+    font-size: 0.9rem;
+    color: var(--loko-volomparasy);
+}
+
+.file-info-remove {
+    background: none;
+    border: none;
+    color: var(--loko-mena);
+    cursor: pointer;
+    padding: var(--halavany-kely);
+    border-radius: var(--boribory-kely);
+    transition: background-color 0.3s ease;
+}
+
+.file-info-remove:hover {
+    background: rgba(220, 53, 69, 0.1);
+}
+
+.file-constraints {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    font-size: 0.8rem;
+    color: var(--loko-volomparasy);
+    margin-top: var(--halavany-antonony);
+    padding: var(--halavany-kely);
+    background: rgba(108, 117, 125, 0.1);
+    border-radius: var(--boribory-kely);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .file-input-wrapper {
+        padding: var(--halavany-lehibe);
+    }
+    
+    .file-input-icon {
+        font-size: 2rem;
+    }
+    
+    .file-input-title {
+        font-size: 1rem;
+    }
+    
+    .file-input-subtitle {
+        font-size: 0.8rem;
+    }
+}

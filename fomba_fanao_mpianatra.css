@@ -1,0 +1,413 @@
+/* ===== FOMBA FANAO MANOKANA HO AN'NY MPIANATRA ===== */
+
+/* ===== KARATRA MPIANATRA ===== */
+.karatra-mpianatra {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.karatra-mpianatra:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--aloka-lehibe);
+    border-color: var(--loko-manga);
+}
+
+/* ===== SARY MPIANATRA ===== */
+.sary-mpianatra {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--boribory-feno);
+    background: var(--gradient-manga);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--loko-fotsy);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--halavany-lehibe);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+/* ===== FAMPAHALALANA MPIANATRA ===== */
+.fampahalalana-mpianatra h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: 0.25rem;
+}
+
+.username-mpianatra {
+    color: var(--loko-manga);
+    font-size: 0.9rem;
+    margin-bottom: var(--halavany-lehibe);
+}
+
+/* ===== STATISTIKA MPIANATRA ===== */
+.statistika-mpianatra {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-antonony);
+    width: 100%;
+}
+
+.statistika-mpianatra-singa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--halavany-antonony);
+    background: var(--loko-volom-bary);
+    border-radius: var(--boribory-kely);
+    font-size: 0.85rem;
+}
+
+.label-statistika-mpianatra {
+    color: var(--loko-volomparasy);
+    font-weight: 500;
+}
+
+.sanda-statistika-mpianatra {
+    font-weight: 700;
+    color: var(--loko-maizina);
+}
+
+.sanda-statistika-mpianatra.tsy-tonga {
+    color: var(--loko-mena);
+}
+
+.sanda-statistika-mpianatra.tara {
+    color: var(--loko-mavo);
+}
+
+/* ===== KARATRA IDENTITE MPIANATRA ===== */
+.karatra-identite-mpianatra {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-tena-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.karatra-identite-mpianatra::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, var(--loko-manga), #8b5cf6, #ec4899);
+}
+
+/* ===== LOHATENY MPIANATRA ===== */
+.lohateny-mpianatra {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-tena-lehibe);
+    margin-bottom: var(--halavany-tena-lehibe);
+    padding-bottom: var(--halavany-tena-lehibe);
+    border-bottom: 2px solid #f1f5f9;
+}
+
+.sary-mpianatra-lehibe {
+    width: 120px;
+    height: 120px;
+    border-radius: var(--boribory-feno);
+    background: var(--gradient-manga);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--loko-fotsy);
+    font-size: 3rem;
+    font-weight: 700;
+    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.3);
+    flex-shrink: 0;
+}
+
+.fampahalalana-fototra-mpianatra h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-antonony);
+}
+
+.fampahalalana-fototra-mpianatra .username {
+    color: var(--loko-manga);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: var(--halavany-lehibe);
+}
+
+/* ===== TOE MPIANATRA ===== */
+.toe-mpianatra {
+    display: flex;
+    gap: var(--halavany-lehibe);
+    flex-wrap: wrap;
+}
+
+.badge-toe.mpianatra {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    color: #1e40af;
+    border: 1px solid var(--loko-manga);
+}
+
+.badge-toe.kilasy {
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    color: #166534;
+    border: 1px solid var(--loko-maitso);
+}
+
+/* ===== ANTSIPIRIHAN'NY MPIANATRA ===== */
+.antsipirihan-mpianatra {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--halavany-tena-lehibe);
+}
+
+.fizarana-antsipirihany {
+    background: linear-gradient(135deg, var(--loko-volom-bary) 0%, rgba(59, 130, 246, 0.02) 100%);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+/* ===== LISITRY NY NAOTY ===== */
+.lisitry-naoty {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-lehibe);
+}
+
+.singa-naoty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--halavany-lehibe);
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-antonony);
+    border-left: 4px solid var(--loko-manga);
+    box-shadow: var(--aloka-kely);
+}
+
+.taranja-naoty {
+    font-weight: 600;
+    color: var(--loko-maizina);
+}
+
+.sanda-naoty {
+    padding: var(--halavany-antonony) var(--halavany-lehibe);
+    border-radius: var(--boribory-tena-lehibe);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* ===== STATISTIKA FAHATONGAVANA ===== */
+.statistika-fahatongavana {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-lehibe);
+}
+
+.singa-fahatongavana {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--halavany-lehibe);
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-antonony);
+    box-shadow: var(--aloka-kely);
+}
+
+.singa-fahatongavana.tsy-tonga {
+    border-left: 4px solid var(--loko-mena);
+}
+
+.singa-fahatongavana.tara {
+    border-left: 4px solid var(--loko-mavo);
+}
+
+.label-fahatongavana {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 600;
+    color: var(--loko-maizina);
+}
+
+.label-fahatongavana i {
+    color: var(--loko-mena);
+}
+
+.singa-fahatongavana.tara .label-fahatongavana i {
+    color: var(--loko-mavo);
+}
+
+.sanda-fahatongavana {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sanda-fahatongavana.tsy-tonga {
+    color: var(--loko-mena);
+}
+
+.sanda-fahatongavana.tara {
+    color: var(--loko-mavo);
+}
+
+/* ===== SALAN-ISA ANKAPOBE ===== */
+.salan-isa-ankapobe {
+    text-align: center;
+    padding: var(--halavany-tena-lehibe);
+    background: linear-gradient(135deg, var(--loko-volom-bary) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border-radius: var(--boribory-lehibe);
+    border: 2px solid rgba(59, 130, 246, 0.2);
+}
+
+.salan-isa-ankapobe h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-lehibe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.sanda-salan-isa-ankapobe {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: var(--halavany-antonony);
+}
+
+.salan-isa-ankapobe p {
+    color: var(--loko-volomparasy);
+    font-size: 1rem;
+}
+
+/* ===== KARATRA KILASY ===== */
+.karatra-kilasy {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-tena-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.karatra-kilasy:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--aloka-lehibe);
+    border-color: var(--loko-manga);
+}
+
+.sary-kilasy {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--boribory-feno);
+    background: var(--gradient-maitso);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--halavany-tena-lehibe);
+    font-size: 2rem;
+    color: var(--loko-fotsy);
+    transition: transform 0.3s ease;
+}
+
+.karatra-kilasy:hover .sary-kilasy {
+    transform: scale(1.1);
+}
+
+.fampahalalana-kilasy h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-antonony);
+}
+
+.fampahalalana-kilasy p {
+    color: var(--loko-volomparasy);
+    margin-bottom: var(--halavany-tena-lehibe);
+}
+
+.statistika-kilasy {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-antonony);
+    width: 100%;
+}
+
+/* ===== RESPONSIVE HO AN'NY MPIANATRA ===== */
+@media (max-width: 768px) {
+    .lohateny-mpianatra {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--halavany-lehibe);
+    }
+    
+    .antsipirihan-mpianatra {
+        grid-template-columns: 1fr;
+    }
+    
+    .sary-mpianatra-lehibe {
+        width: 100px;
+        height: 100px;
+        font-size: 2.5rem;
+    }
+    
+    .fampahalalana-fototra-mpianatra h2 {
+        font-size: 1.5rem;
+    }
+    
+    .karatra-identite-mpianatra {
+        padding: var(--halavany-tena-lehibe);
+    }
+}
+
+/* ===== ANIMATIONS HO AN'NY MPIANATRA ===== */
+.karatra-kilasy,
+.karatra-mpianatra {
+    animation: fadeIn 0.6s ease forwards;
+    opacity: 0;
+}
+
+.karatra-kilasy:nth-child(1) { animation-delay: 0.1s; }
+.karatra-kilasy:nth-child(2) { animation-delay: 0.2s; }
+.karatra-kilasy:nth-child(3) { animation-delay: 0.3s; }
+.karatra-kilasy:nth-child(4) { animation-delay: 0.4s; }
+
+.karatra-mpianatra:nth-child(1) { animation-delay: 0.1s; }
+.karatra-mpianatra:nth-child(2) { animation-delay: 0.2s; }
+.karatra-mpianatra:nth-child(3) { animation-delay: 0.3s; }
+.karatra-mpianatra:nth-child(4) { animation-delay: 0.4s; }
+.karatra-mpianatra:nth-child(5) { animation-delay: 0.5s; }
+.karatra-mpianatra:nth-child(6) { animation-delay: 0.6s; }
+
+/* ===== HOVER EFFECTS MANOKANA ===== */
+.singa-naoty:hover {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}
+
+.singa-fahatongavana:hover {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+}

@@ -1,0 +1,421 @@
+/* ===== STYLES MANOKANA HO AN'NY MPITANTANA NAOTY ===== */
+
+/* Lohateny pejy */
+.lohateny-pejy {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.lohateny-pejy h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.lohateny-pejy h2 i {
+    color: var(--loko-manga);
+}
+
+.lohateny-pejy p {
+    color: var(--loko-volomparasy);
+    font-size: 1.1rem;
+}
+
+/* Grid kilasy */
+.grid-kilasy {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.karatra-kilasy {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-tena-lehibe);
+    padding: 2rem;
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.karatra-kilasy:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--aloka-lehibe);
+    border-color: var(--loko-manga);
+}
+
+.sary-kilasy {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--boribory-feno);
+    background: var(--gradient-manga);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: var(--loko-fotsy);
+    transition: transform 0.3s ease;
+}
+
+.karatra-kilasy:hover .sary-kilasy {
+    transform: scale(1.1);
+}
+
+.fampahalalana-kilasy h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: 0.5rem;
+}
+
+.fampahalalana-kilasy p {
+    color: var(--loko-volomparasy);
+    margin-bottom: 1.5rem;
+}
+
+.statistika-kilasy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.singa-statistika {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--loko-volomparasy);
+    font-size: 0.9rem;
+    background: var(--loko-volom-bary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--boribory-tena-lehibe);
+}
+
+.singa-statistika i {
+    color: var(--loko-manga);
+}
+
+/* Seho antsipiriany kilasy */
+.seho-antsipiriany-kilasy {
+    animation: fadeInUp 0.6s ease;
+}
+
+.lohateny-kilasy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.lohateny-kilasy-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: 0.5rem;
+}
+
+.famintinana-kilasy {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.singa-famintinana {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--loko-volomparasy);
+    font-size: 1rem;
+    background: var(--loko-volom-bary);
+    padding: 0.5rem 1rem;
+    border-radius: var(--boribory-tena-lehibe);
+    border: 1px solid #e5e7eb;
+}
+
+.singa-famintinana i {
+    color: var(--loko-manga);
+}
+
+/* Karatra mpianatra */
+.fitoerana-mpianatra {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.karatra-mpianatra .lohateny-karatra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.fampahalalana-mpianatra h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: 0.25rem;
+}
+
+.fampahalalana-mpianatra .anarana-mpampiasa {
+    color: var(--loko-manga);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.salan-isa-mpianatra {
+    padding: 0.5rem 1rem;
+    border-radius: var(--boribory-tena-lehibe);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* Lisitry ny naoty */
+.lisitry-naoty {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.singa-naoty {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: var(--loko-volom-bary);
+    border-radius: var(--boribory-antonony);
+    border-left: 4px solid var(--loko-manga);
+    transition: all 0.3s ease;
+}
+
+.singa-naoty:hover {
+    background: #f1f5f9;
+    transform: translateX(5px);
+}
+
+.fampahalalana-naoty {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.taranja-naoty {
+    font-weight: 600;
+    color: var(--loko-maizina);
+}
+
+.daty-naoty {
+    font-size: 0.8rem;
+    color: var(--loko-volomparasy);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.asa-naoty {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bokotra-fafana {
+    background: var(--loko-mena);
+    color: var(--loko-fotsy);
+    border: none;
+    border-radius: var(--boribory-kely);
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+}
+
+.bokotra-fafana:hover {
+    background: #dc2626;
+    transform: scale(1.1);
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+.votoaty-modal {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-tena-lehibe);
+    box-shadow: var(--aloka-tena-lehibe);
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: slideInUp 0.3s ease;
+}
+
+.lohateny-modal {
+    padding: 2rem 2rem 1rem;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.lohateny-modal h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.lohateny-modal h3 i {
+    color: var(--loko-mena);
+}
+
+.votoaty-modal-body {
+    padding: 1.5rem 2rem;
+}
+
+.votoaty-modal-body p {
+    font-size: 1.1rem;
+    color: var(--loko-volomparasy);
+    margin-bottom: 1.5rem;
+}
+
+.fampahalalana-naoty-modal {
+    background: var(--loko-volom-bary);
+    padding: 1.5rem;
+    border-radius: var(--boribory-antonony);
+    border-left: 4px solid var(--loko-manga);
+}
+
+.fampahalalana-naoty-modal p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.fampahalalana-naoty-modal p:last-child {
+    margin-bottom: 0;
+}
+
+.tongotra-modal {
+    padding: 1rem 2rem 2rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+/* Naoty loko */
+.excellent {
+    background: var(--gradient-maitso);
+    color: var(--loko-fotsy);
+}
+
+.good {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    color: var(--loko-fotsy);
+}
+
+.average {
+    background: linear-gradient(135deg, var(--loko-mavo) 0%, #f59e0b 100%);
+    color: var(--loko-fotsy);
+}
+
+.poor {
+    background: linear-gradient(135deg, var(--loko-mena) 0%, #dc2626 100%);
+    color: var(--loko-fotsy);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .grid-kilasy {
+        grid-template-columns: 1fr;
+    }
+    
+    .lohateny-kilasy {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .famintinana-kilasy {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .karatra-mpianatra .lohateny-karatra {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .singa-naoty {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .asa-naoty {
+        align-self: flex-end;
+    }
+    
+    .votoaty-modal {
+        margin: 1rem;
+        width: calc(100% - 2rem);
+    }
+    
+    .tongotra-modal {
+        flex-direction: column;
+    }
+}

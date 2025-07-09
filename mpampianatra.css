@@ -1,0 +1,747 @@
+/* ===== FOMBA FANAO MANOKANA HO AN'NY MPAMPIANATRA ===== */
+
+/* ===== KARATRA MPAMPIANATRA MODERNE APPLE ===== */
+.karatra-mpampianatra {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid var(--loko-border);
+    cursor: pointer;
+    transition: var(--transition-antonony);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.karatra-mpampianatra:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--aloka-lehibe);
+    border-color: rgba(52, 199, 89, 0.3);
+}
+
+/* ===== SARY MPAMPIANATRA MODERNE ===== */
+.sary-mpampianatra {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--boribory-feno);
+    background: var(--gradient-maitso);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--halavany-lehibe);
+    font-size: 32px;
+    color: var(--loko-fotsy);
+    transition: var(--transition-haingana);
+    box-shadow: var(--aloka-antonony);
+    font-weight: 600;
+}
+
+.karatra-mpampianatra:hover .sary-mpampianatra {
+    transform: scale(1.05);
+    box-shadow: var(--aloka-lehibe);
+}
+
+/* ===== FAMPAHALALANA MPAMPIANATRA MODERNE ===== */
+.fampahalalana-mpampianatra h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-kely);
+    letter-spacing: -0.003em;
+    line-height: 1.21053;
+}
+
+.karatra-mpampianatra:hover .fampahalalana-mpampianatra h3 {
+    color: var(--loko-maitso);
+}
+
+.fampahalalana-mpampianatra p {
+    color: var(--loko-text-secondary);
+    margin-bottom: var(--halavany-lehibe);
+    font-size: 15px;
+    line-height: 1.47059;
+}
+
+/* ===== STATISTIKA MPAMPIANATRA MODERNE ===== */
+.statistika-mpampianatra {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-kely);
+    width: 100%;
+}
+
+.singa-statistika {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--halavany-kely);
+    color: var(--loko-text-secondary);
+    font-size: 13px;
+    background: var(--loko-volom-bary);
+    padding: var(--halavany-kely) var(--halavany-antonony);
+    border-radius: var(--boribory-lehibe);
+    transition: var(--transition-haingana);
+    font-weight: 500;
+}
+
+.singa-statistika:hover {
+    background: rgba(52, 199, 89, 0.1);
+    color: var(--loko-maitso);
+}
+
+.singa-statistika i {
+    color: var(--loko-maitso);
+    font-size: 12px;
+}
+
+/* ===== KARATRA TARANJA MODERNE ===== */
+.karatra-taranja {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid var(--loko-border);
+    cursor: pointer;
+    transition: var(--transition-antonony);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.karatra-taranja:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--aloka-lehibe);
+    border-color: rgba(0, 122, 255, 0.3);
+}
+
+/* ===== SARY TARANJA MODERNE ===== */
+.sary-taranja {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--boribory-feno);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--halavany-lehibe);
+    font-size: 32px;
+    color: var(--loko-fotsy);
+    transition: var(--transition-haingana);
+    box-shadow: var(--aloka-antonony);
+    font-weight: 600;
+}
+
+.karatra-taranja:hover .sary-taranja {
+    transform: scale(1.05);
+    box-shadow: var(--aloka-lehibe);
+}
+
+/* ===== FAMPAHALALANA TARANJA MODERNE ===== */
+.fampahalalana-taranja h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-kely);
+    letter-spacing: -0.003em;
+    line-height: 1.21053;
+}
+
+.karatra-taranja:hover .fampahalalana-taranja h3 {
+    color: var(--loko-manga);
+}
+
+.fampahalalana-taranja p {
+    color: var(--loko-text-secondary);
+    margin-bottom: var(--halavany-lehibe);
+    font-size: 15px;
+    line-height: 1.47059;
+}
+
+/* ===== STATISTIKA TARANJA MODERNE ===== */
+.statistika-taranja {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-kely);
+    width: 100%;
+}
+
+/* ===== KARATRA IDENTITE MPAMPIANATRA MODERNE ===== */
+.karatra-identite-mpampianatra {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-tena-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid var(--loko-border);
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.lohateny-mpampianatra {
+    display: flex;
+    gap: var(--halavany-lehibe);
+    margin-bottom: var(--halavany-tena-lehibe);
+    align-items: center;
+    padding: var(--halavany-lehibe);
+    background: var(--loko-volom-bary);
+    border-radius: var(--boribory-antonony);
+    border: 1px solid var(--loko-border);
+}
+
+.sary-mpampianatra-lehibe {
+    width: 120px;
+    height: 120px;
+    border-radius: var(--boribory-feno);
+    background: var(--gradient-maitso);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--loko-fotsy);
+    font-weight: 700;
+    font-size: 48px;
+    box-shadow: var(--aloka-antonony);
+    transition: var(--transition-haingana);
+    position: relative;
+    overflow: hidden;
+}
+
+.sary-mpampianatra-lehibe:hover {
+    transform: scale(1.02);
+    box-shadow: var(--aloka-lehibe);
+}
+
+.fampahalalana-fototra-mpampianatra h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-kely);
+    letter-spacing: -0.005em;
+    line-height: 1.125;
+}
+
+.fampahalalana-fototra-mpampianatra .username {
+    color: var(--loko-text-secondary);
+    font-size: 17px;
+    margin-bottom: var(--halavany-lehibe);
+    font-weight: 400;
+}
+
+.toe-mpampianatra {
+    display: flex;
+    gap: var(--halavany-antonony);
+    flex-wrap: wrap;
+}
+
+.badge-toe {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    background: var(--loko-volom-bary);
+    padding: var(--halavany-kely) var(--halavany-antonony);
+    border-radius: var(--boribory-lehibe);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--loko-text-secondary);
+    border: 1px solid var(--loko-border);
+    transition: var(--transition-haingana);
+}
+
+.badge-toe:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-kely);
+}
+
+.badge-toe.mpampianatra {
+    background: var(--gradient-maitso);
+    color: var(--loko-fotsy);
+    border: none;
+    box-shadow: var(--aloka-kely);
+}
+
+.badge-toe.taranja {
+    background: var(--gradient-manga);
+    color: var(--loko-fotsy);
+    border: none;
+    box-shadow: var(--aloka-kely);
+}
+
+/* ===== ANTSIPIRIHAN'NY MPAMPIANATRA MODERNE ===== */
+.antsipirihan-mpampianatra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--halavany-lehibe);
+    margin-bottom: var(--halavany-tena-lehibe);
+}
+
+.fizarana-antsipirihany {
+    background: var(--loko-volom-bary);
+    padding: var(--halavany-lehibe);
+    border-radius: var(--boribory-antonony);
+    border: 1px solid var(--loko-border);
+    transition: var(--transition-haingana);
+}
+
+.fizarana-antsipirihany:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aloka-antonony);
+    background: var(--loko-fotsy);
+}
+
+.fizarana-antsipirihany h3 {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-antonony);
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-lehibe);
+    padding-bottom: var(--halavany-kely);
+    border-bottom: 1px solid var(--loko-border);
+    letter-spacing: -0.003em;
+}
+
+.fizarana-antsipirihany h3 i {
+    color: var(--loko-maitso);
+    font-size: 16px;
+}
+
+/* ===== LISITRY NY KILASY MODERNE ===== */
+.lisitry-kilasy {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-antonony);
+}
+
+.singa-kilasy {
+    background: var(--loko-fotsy);
+    padding: var(--halavany-antonony);
+    border-radius: var(--boribory-antonony);
+    border: 1px solid var(--loko-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: var(--transition-haingana);
+}
+
+.singa-kilasy:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-kely);
+    border-color: rgba(52, 199, 89, 0.3);
+}
+
+.anarana-kilasy {
+    font-weight: 600;
+    color: var(--loko-maizina);
+    font-size: 17px;
+}
+
+.antsipirihan-kilasy {
+    display: flex;
+    gap: var(--halavany-lehibe);
+    font-size: 13px;
+    align-items: center;
+}
+
+.salan-isa-kilasy {
+    font-weight: 600;
+    padding: 4px var(--halavany-kely);
+    border-radius: var(--boribory-kely);
+    background: var(--gradient-maitso);
+    color: var(--loko-fotsy);
+    font-size: 13px;
+    min-width: 40px;
+    text-align: center;
+    box-shadow: var(--aloka-kely);
+}
+
+.mpianatra-kilasy, 
+.naoty-kilasy {
+    color: var(--loko-text-secondary);
+    font-weight: 400;
+}
+
+/* ===== GRID STATISTIKA MODERNE ===== */
+.grid-statistika {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--halavany-antonony);
+}
+
+.singa-statistika-lehibe {
+    background: var(--loko-fotsy);
+    padding: var(--halavany-antonony);
+    border-radius: var(--boribory-antonony);
+    border: 1px solid var(--loko-border);
+    text-align: center;
+    transition: var(--transition-haingana);
+}
+
+.singa-statistika-lehibe:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aloka-antonony);
+    border-color: rgba(52, 199, 89, 0.3);
+}
+
+.label-statistika-lehibe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--halavany-kely);
+    font-size: 13px;
+    color: var(--loko-text-secondary);
+    margin-bottom: var(--halavany-kely);
+    font-weight: 500;
+}
+
+.label-statistika-lehibe i {
+    color: var(--loko-maitso);
+    font-size: 14px;
+}
+
+.sanda-statistika {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    letter-spacing: -0.003em;
+}
+
+/* ===== FAMPAHALALANA MPAMPIANATRA MODERNE ===== */
+.singa-fampahalalana {
+    background: var(--loko-fotsy);
+    padding: var(--halavany-antonony);
+    border-radius: var(--boribory-antonony);
+    border: 1px solid var(--loko-border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: var(--transition-haingana);
+}
+
+.singa-fampahalalana:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aloka-kely);
+    border-color: rgba(52, 199, 89, 0.3);
+}
+
+.singa-fampahalalana i {
+    font-size: 24px;
+    color: var(--loko-maitso);
+    margin-bottom: var(--halavany-kely);
+}
+
+.singa-fampahalalana .label {
+    font-size: 13px;
+    color: var(--loko-text-secondary);
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.singa-fampahalalana .sanda {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+}
+
+/* ===== KARATRA FAMPIANARANA MODERNE ===== */
+.karatra-fampianarana {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-antonony);
+    padding: var(--halavany-lehibe);
+    border: 1px solid var(--loko-border);
+    transition: var(--transition-haingana);
+    position: relative;
+    overflow: hidden;
+}
+
+.karatra-fampianarana::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    transition: all 0.3s ease;
+    border-radius: var(--boribory-antonony) var(--boribory-antonony) 0 0;
+}
+
+.karatra-fampianarana.mandeha {
+    border-color: rgba(52, 199, 89, 0.3);
+    background: rgba(52, 199, 89, 0.02);
+}
+
+.karatra-fampianarana.mandeha::before {
+    background: var(--gradient-maitso);
+}
+
+.karatra-fampianarana.ho-avy {
+    border-color: rgba(0, 122, 255, 0.3);
+    background: rgba(0, 122, 255, 0.02);
+}
+
+.karatra-fampianarana.ho-avy::before {
+    background: var(--gradient-manga);
+}
+
+.karatra-fampianarana.vita {
+    border-color: rgba(142, 142, 147, 0.3);
+    background: rgba(142, 142, 147, 0.02);
+}
+
+.karatra-fampianarana.vita::before {
+    background: linear-gradient(180deg, var(--loko-volomparasy) 0%, #6d6d70 100%);
+}
+
+.karatra-fampianarana:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aloka-antonony);
+}
+
+.ora-fampianarana {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-antonony);
+}
+
+.ora-fampianarana i {
+    font-size: 14px;
+}
+
+.antsipirihan-fampianarana {
+    margin-bottom: var(--halavany-antonony);
+}
+
+.taranja-fampianarana {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: 4px;
+    letter-spacing: -0.003em;
+}
+
+.kilasy-fampianarana {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--loko-text-secondary);
+    margin-bottom: 4px;
+}
+
+.efitrano-fampianarana {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    font-size: 13px;
+    color: var(--loko-text-secondary);
+}
+
+.toe-fampianarana {
+    padding: 4px var(--halavany-antonony);
+    border-radius: var(--boribory-lehibe);
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.toe-fampianarana.mandeha {
+    background: var(--gradient-maitso);
+    color: var(--loko-fotsy);
+    box-shadow: var(--aloka-kely);
+}
+
+.toe-fampianarana.ho-avy {
+    background: var(--gradient-manga);
+    color: var(--loko-fotsy);
+    box-shadow: var(--aloka-kely);
+}
+
+.toe-fampianarana.vita {
+    background: linear-gradient(180deg, var(--loko-volomparasy) 0%, #6d6d70 100%);
+    color: var(--loko-fotsy);
+    box-shadow: var(--aloka-kely);
+}
+
+/* ===== RESPONSIVE HO AN'NY MPAMPIANATRA ===== */
+@media (max-width: 768px) {
+    .lohateny-mpampianatra {
+        flex-direction: column;
+        text-align: center;
+        gap: var(--halavany-antonony);
+    }
+    
+    .antsipirihan-mpampianatra {
+        grid-template-columns: 1fr;
+    }
+    
+    .singa-kilasy {
+        flex-direction: column;
+        gap: var(--halavany-antonony);
+        text-align: center;
+    }
+    
+    .antsipirihan-kilasy {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .fampahalalana-fototra-mpampianatra h2 {
+        font-size: 28px;
+    }
+    
+    .sary-mpampianatra-lehibe {
+        width: 100px;
+        height: 100px;
+        font-size: 40px;
+    }
+    
+    .toe-mpampianatra {
+        justify-content: center;
+    }
+}
+
+/* ===== NAOTY COLORS MODERNE ===== */
+.excellent {
+    color: var(--loko-maitso) !important;
+    font-weight: 600;
+}
+
+.good {
+    color: var(--loko-manga) !important;
+    font-weight: 500;
+}
+
+.average {
+    color: var(--loko-mavo) !important;
+    font-weight: 500;
+}
+
+.poor {
+    color: var(--loko-mena) !important;
+    font-weight: 600;
+}
+
+/* ===== ANIMATIONS HO AN'NY MPAMPIANATRA ===== */
+.karatra-mpampianatra,
+.karatra-taranja {
+    animation: fadeIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    opacity: 0;
+}
+
+.karatra-mpampianatra:nth-child(1) { animation-delay: 0.1s; }
+.karatra-mpampianatra:nth-child(2) { animation-delay: 0.2s; }
+.karatra-mpampianatra:nth-child(3) { animation-delay: 0.3s; }
+.karatra-mpampianatra:nth-child(4) { animation-delay: 0.4s; }
+.karatra-mpampianatra:nth-child(5) { animation-delay: 0.5s; }
+
+.karatra-taranja:nth-child(1) { animation-delay: 0.1s; }
+.karatra-taranja:nth-child(2) { animation-delay: 0.2s; }
+.karatra-taranja:nth-child(3) { animation-delay: 0.3s; }
+.karatra-taranja:nth-child(4) { animation-delay: 0.4s; }
+.karatra-taranja:nth-child(5) { animation-delay: 0.5s; }
+
+/* ===== MODAL TOETR'ANDRO MODERNE ===== */
+.modal-toetr-andro {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.modal-content-toetr-andro {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-lehibe);
+    padding: 0;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    overflow: hidden;
+    box-shadow: var(--aloka-tena-lehibe);
+    animation: slideIn 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    border: 1px solid var(--loko-border);
+}
+
+.btn-info {
+    background: var(--gradient-manga);
+    color: var(--loko-fotsy);
+    border: none;
+    transition: var(--transition-haingana);
+    box-shadow: var(--aloka-kely);
+}
+
+.btn-info:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-antonony);
+    filter: brightness(1.05);
+}
+
+/* ===== METEO WIDGET MODERNE ===== */
+.meteo-widget {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: var(--loko-fotsy);
+    padding: var(--halavany-antonony) var(--halavany-lehibe);
+    border-radius: var(--boribory-antonony);
+    box-shadow: var(--aloka-antonony);
+    font-family: inherit;
+    font-size: 13px;
+    z-index: 999;
+    border: 1px solid var(--loko-border);
+    transition: var(--transition-haingana);
+}
+
+.meteo-widget:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-lehibe);
+}
+
+.meteo-widget select {
+    padding: 4px var(--halavany-kely);
+    margin-bottom: var(--halavany-kely);
+    font-size: 13px;
+    border-radius: var(--boribory-kely);
+    border: 1px solid var(--loko-border);
+    background: var(--loko-fotsy);
+    transition: var(--transition-haingana);
+    font-family: inherit;
+}
+
+.meteo-widget select:focus {
+    outline: none;
+    border-color: var(--loko-maitso);
+    box-shadow: 0 0 0 2px rgba(52, 199, 89, 0.1);
+}
+
+.meteo-resulta {
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    font-weight: 500;
+    color: var(--loko-maizina);
+}
+
+.meteo-resulta img {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+}

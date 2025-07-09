@@ -1,0 +1,612 @@
+/* ===== FOMBA FANAO ANKAPOBE HO AN'NY PEJY REHETRA ===== */
+
+:root {
+    /* Loko fototra - Style Apple minimaliste */
+    --loko-maitso: #34c759;
+    --loko-manga-mazava: #007aff;
+    --loko-fotsy: #ffffff;
+    --loko-volom-bary: #f2f2f7;
+    --loko-maizina: #1d1d1f;
+    --loko-maitso-maizina: #30d158;
+    --loko-manga-maizina: #0051d5;
+    --loko-mena: #ff3b30;
+    --loko-mavo: #ff9500;
+    --loko-manga: #007aff;
+    --loko-volomparasy: #8e8e93;
+    --loko-maitso-mazava: #f0fff4;
+    --loko-manga-malemy: #f0f8ff;
+    --loko-border: #d1d1d6;
+    --loko-text-secondary: #6d6d70;
+    
+    /* Gradient subtil */
+    --gradient-fototra: #ffffff;
+    --gradient-maitso: linear-gradient(180deg, #34c759 0%, #30d158 100%);
+    --gradient-manga: linear-gradient(180deg, #007aff 0%, #0051d5 100%);
+    --gradient-mena: linear-gradient(180deg, #ff3b30 0%, #d70015 100%);
+    --gradient-mavo: linear-gradient(180deg, #ff9500 0%, #ff6d00 100%);
+    
+    /* Gradient pour cartes */
+    --gradient-karatra: #ffffff;
+    --gradient-hover: #f9f9f9;
+    
+    /* Halavany - Espacement Apple */
+    --halavany-kely: 8px;
+    --halavany-antonony: 16px;
+    --halavany-lehibe: 24px;
+    --halavany-tena-lehibe: 32px;
+    --halavany-goavana: 48px;
+    
+    /* Boribory - Coins arrondis Apple */
+    --boribory-kely: 8px;
+    --boribory-antonony: 12px;
+    --boribory-lehibe: 16px;
+    --boribory-tena-lehibe: 20px;
+    --boribory-feno: 50%;
+    
+    /* Aloka - Ombres subtiles Apple */
+    --aloka-kely: 0 1px 3px rgba(0, 0, 0, 0.04);
+    --aloka-antonony: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --aloka-lehibe: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --aloka-tena-lehibe: 0 16px 40px rgba(0, 0, 0, 0.16);
+    --aloka-colored: 0 4px 12px rgba(52, 199, 89, 0.15);
+    
+    /* Transition fluide */
+    --transition-haingana: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-antonony: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-miadana: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* ===== FOMBA FANAO ANKAPOBE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+    background: var(--loko-fotsy);
+    min-height: 100vh;
+    color: var(--loko-maizina);
+    line-height: 1.47059;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== CONTAINER ANKAPOBE ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--halavany-lehibe);
+}
+
+.container-fluid {
+    width: 100%;
+    padding: var(--halavany-lehibe);
+}
+
+/* ===== BOKOTRA MODERNE APPLE ===== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    padding: 11px var(--halavany-antonony);
+    border: none;
+    border-radius: var(--boribory-antonony);
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition-haingana);
+    white-space: nowrap;
+    position: relative;
+    font-family: inherit;
+    min-height: 44px;
+}
+
+.btn-primary {
+    background: var(--gradient-maitso);
+    color: var(--loko-fotsy);
+    box-shadow: var(--aloka-kely);
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-antonony);
+    filter: brightness(1.05);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    box-shadow: var(--aloka-kely);
+}
+
+.btn-success {
+    background: var(--gradient-manga);
+    color: var(--loko-fotsy);
+    box-shadow: var(--aloka-kely);
+}
+
+.btn-success:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-antonony);
+    filter: brightness(1.05);
+}
+
+.btn-danger {
+    background: var(--gradient-mena);
+    color: var(--loko-fotsy);
+    box-shadow: var(--aloka-kely);
+}
+
+.btn-danger:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-antonony);
+    filter: brightness(1.05);
+}
+
+.btn-secondary {
+    background: var(--loko-volom-bary);
+    color: var(--loko-maizina);
+    border: 1px solid var(--loko-border);
+    box-shadow: var(--aloka-kely);
+}
+
+.btn-secondary:hover {
+    background: var(--gradient-hover);
+    transform: translateY(-1px);
+    box-shadow: var(--aloka-antonony);
+}
+
+.btn-full {
+    width: 100%;
+    justify-content: center;
+}
+
+/* ===== KARATRA MODERNE APPLE ===== */
+.karatra {
+    background: var(--loko-fotsy);
+    border-radius: var(--boribory-lehibe);
+    padding: var(--halavany-lehibe);
+    box-shadow: var(--aloka-antonony);
+    border: 1px solid var(--loko-border);
+    transition: var(--transition-antonony);
+    position: relative;
+}
+
+.karatra:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aloka-lehibe);
+    border-color: rgba(52, 199, 89, 0.2);
+}
+
+/* ===== LOHATENY MODERNE ===== */
+.lohateny-lehibe {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-lehibe);
+    text-align: center;
+    letter-spacing: -0.003em;
+    line-height: 1.08349;
+}
+
+.lohateny-antonony {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-antonony);
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    letter-spacing: -0.005em;
+    line-height: 1.14286;
+}
+
+.lohateny-antonony i {
+    color: var(--loko-maitso);
+    font-size: 24px;
+}
+
+.lohateny-kely {
+    font-size: 21px;
+    font-weight: 600;
+    color: var(--loko-maizina);
+    margin-bottom: var(--halavany-antonony);
+    letter-spacing: -0.003em;
+    line-height: 1.19048;
+}
+
+/* ===== GRID RAFITRA MODERNE ===== */
+.grid {
+    display: grid;
+    gap: var(--halavany-lehibe);
+}
+
+.grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-4 {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* ===== FLEX RAFITRA ===== */
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-kely {
+    gap: var(--halavany-kely);
+}
+
+.gap-antonony {
+    gap: var(--halavany-antonony);
+}
+
+.gap-lehibe {
+    gap: var(--halavany-lehibe);
+}
+
+/* ===== FORM MODERNE APPLE ===== */
+.form-modern {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-lehibe);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--halavany-kely);
+}
+
+.form-group label {
+    font-weight: 500;
+    color: var(--loko-maizina);
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    font-size: 15px;
+}
+
+.form-group label i {
+    color: var(--loko-maitso);
+    width: 16px;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 12px var(--halavany-antonony);
+    border: 1px solid var(--loko-border);
+    border-radius: var(--boribory-antonony);
+    font-size: 15px;
+    font-family: inherit;
+    transition: var(--transition-haingana);
+    background: var(--loko-fotsy);
+    min-height: 44px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--loko-maitso);
+    box-shadow: 0 0 0 3px rgba(52, 199, 89, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 88px;
+    line-height: 1.47059;
+}
+
+/* ===== HEADER ACTIONS ===== */
+.header-actions {
+    display: flex;
+    gap: var(--halavany-antonony);
+    margin-bottom: var(--halavany-tena-lehibe);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ===== MARGIN SY PADDING ===== */
+.m-0 { margin: 0; }
+.m-1 { margin: var(--halavany-kely); }
+.m-2 { margin: var(--halavany-antonony); }
+.m-3 { margin: var(--halavany-lehibe); }
+.m-4 { margin: var(--halavany-tena-lehibe); }
+
+.p-0 { padding: 0; }
+.p-1 { padding: var(--halavany-kely); }
+.p-2 { padding: var(--halavany-antonony); }
+.p-3 { padding: var(--halavany-lehibe); }
+.p-4 { padding: var(--halavany-tena-lehibe); }
+
+.mb-1 { margin-bottom: var(--halavany-kely); }
+.mb-2 { margin-bottom: var(--halavany-antonony); }
+.mb-3 { margin-bottom: var(--halavany-lehibe); }
+.mb-4 { margin-bottom: var(--halavany-tena-lehibe); }
+
+.mt-1 { margin-top: var(--halavany-kely); }
+.mt-2 { margin-top: var(--halavany-antonony); }
+.mt-3 { margin-top: var(--halavany-lehibe); }
+.mt-4 { margin-top: var(--halavany-tena-lehibe); }
+
+/* ===== TEXT UTILITIES ===== */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.text-muted { color: var(--loko-text-secondary); }
+.text-primary { color: var(--loko-manga); }
+.text-success { color: var(--loko-maitso); }
+.text-danger { color: var(--loko-mena); }
+.text-warning { color: var(--loko-mavo); }
+
+.font-weight-bold { font-weight: 600; }
+.font-weight-normal { font-weight: 400; }
+.font-weight-light { font-weight: 300; }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .container {
+        padding: var(--halavany-antonony);
+    }
+    
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+    
+    .lohateny-lehibe {
+        font-size: 36px;
+    }
+    
+    .lohateny-antonony {
+        font-size: 24px;
+    }
+    
+    .flex-between {
+        flex-direction: column;
+        gap: var(--halavany-antonony);
+    }
+    
+    .header-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+/* ===== ANIMATIONS SUBTILES ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+.slide-in {
+    animation: slideIn 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* ===== LOADING STATES ===== */
+.loading-state {
+    text-align: center;
+    padding: var(--halavany-goavana);
+    color: var(--loko-text-secondary);
+}
+
+.loading-state i {
+    font-size: 48px;
+    margin-bottom: var(--halavany-lehibe);
+    animation: spin 1s linear infinite;
+    color: var(--loko-maitso);
+}
+
+.loading-state h4 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: var(--halavany-kely);
+    color: var(--loko-maizina);
+}
+
+.loading-state p {
+    font-size: 15px;
+    margin-bottom: var(--halavany-lehibe);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ===== ERROR STATES ===== */
+.error-state {
+    text-align: center;
+    padding: var(--halavany-goavana);
+    color: var(--loko-mena);
+}
+
+.error-state i {
+    font-size: 48px;
+    margin-bottom: var(--halavany-lehibe);
+    color: var(--loko-mena);
+}
+
+.error-state h4 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: var(--halavany-kely);
+    color: var(--loko-mena);
+}
+
+.error-state p {
+    font-size: 15px;
+    margin-bottom: var(--halavany-lehibe);
+}
+
+/* ===== EMPTY STATES ===== */
+.empty-state {
+    text-align: center;
+    padding: var(--halavany-goavana);
+    color: var(--loko-text-secondary);
+}
+
+.empty-state i {
+    font-size: 64px;
+    margin-bottom: var(--halavany-lehibe);
+    opacity: 0.5;
+    color: var(--loko-text-secondary);
+}
+
+.empty-state h4 {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: var(--halavany-kely);
+    color: var(--loko-maizina);
+}
+
+.empty-state p {
+    font-size: 15px;
+    margin-bottom: var(--halavany-lehibe);
+}
+
+/* ===== NOTIFICATIONS MODERNE ===== */
+.fampandrenesana {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: var(--halavany-antonony) var(--halavany-lehibe);
+    border-radius: var(--boribory-antonony);
+    box-shadow: var(--aloka-lehibe);
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    gap: var(--halavany-kely);
+    min-width: 300px;
+    max-width: 400px;
+    animation: slideInRight 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    font-size: 15px;
+    font-weight: 500;
+    backdrop-filter: blur(20px);
+}
+
+.fampandrenesana-fahombiazana {
+    background: var(--gradient-maitso);
+    color: var(--loko-fotsy);
+}
+
+.fampandrenesana-hadisoana {
+    background: var(--gradient-mena);
+    color: var(--loko-fotsy);
+}
+
+.fampandrenesana-fampandrenesana {
+    background: var(--gradient-mavo);
+    color: var(--loko-fotsy);
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ===== UTILITIES AVANCÉES ===== */
+.d-none { display: none !important; }
+.d-block { display: block !important; }
+.d-flex { display: flex !important; }
+.d-grid { display: grid !important; }
+
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+
+.position-relative { position: relative; }
+.position-absolute { position: absolute; }
+.position-fixed { position: fixed; }
+
+.overflow-hidden { overflow: hidden; }
+.overflow-auto { overflow: auto; }
+
+.cursor-pointer { cursor: pointer; }
+
+.border-radius { border-radius: var(--boribory-antonony); }
+.border-radius-lg { border-radius: var(--boribory-lehibe); }
+.border-radius-xl { border-radius: var(--boribory-tena-lehibe); }
+
+.shadow-sm { box-shadow: var(--aloka-kely); }
+.shadow { box-shadow: var(--aloka-antonony); }
+.shadow-lg { box-shadow: var(--aloka-lehibe); }
+.shadow-xl { box-shadow: var(--aloka-tena-lehibe); }
+
+/* ===== MICRO-INTERACTIONS APPLE ===== */
+.hover-lift {
+    transition: var(--transition-haingana);
+}
+
+.hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--aloka-lehibe);
+}
+
+.hover-scale {
+    transition: var(--transition-haingana);
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,11 @@
+{
+    "logout_success": "Nivoaka tamim-pahombiazana ianao",
+    "username": "AndrypL1G2",
+    "fullname": "Andry premier",
+    "groups": [
+        "G_Acces_DossierCours",
+        "G_L1G2",
+        "G_Tous_Eleves"
+    ],
+    "matiere": "L1G2"
+}
